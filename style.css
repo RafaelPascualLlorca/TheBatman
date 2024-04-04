@@ -90,7 +90,12 @@ th , td {
         width: 400px;
         height: 240px;
     }
-    
+
+    .ftrep {
+        width: 75px;
+        height: 75px;
+    }
+
 }
 
 
@@ -107,11 +112,16 @@ th , td {
         width: 300px;
         height: 210px;
     }
-    
+
+    .ftrep {
+        width: 50px;
+        height: 50px;
+    }
+
 }
 
 @media screen and (max-width:800px ){
-    .text {
+    .text, .titrep {
         font-size: 13px;
     }
 
@@ -122,6 +132,11 @@ th , td {
     .imgs {
         width: 185px;
         height: 170px;
+    }
+
+    .ftrep {
+        width: 25px;
+        height: 25px;
     }
     
 }
