@@ -3,6 +3,17 @@
 
 #background {
     width: 100%;
+    background-image: url(./img/header_background.jpeg)
+}
+
+#pres {
+    color: white;
+    font-size: 40px;
+    font-family: "Mulish", sans-serif;
+}
+
+#textfon {
+    padding: 30px;
 }
 
 .rojo {
@@ -10,8 +21,13 @@
 }
 
 #divgr {
-    width: 60%;
-    padding-left: 20%;
+    width: 40%;
+    padding-left: 30%;
+}
+
+#batman {
+    width: 80%;
+    padding-left: 10%;
 }
 
 .hs {
@@ -26,3 +42,9 @@
     font-family: "Mulish", sans-serif;
     font-weight: 252;
 }
+
+.imgs {
+    width: 475px;
+    height: 300px;
+}
+
