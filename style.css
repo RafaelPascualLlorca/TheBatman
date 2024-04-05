@@ -3,7 +3,7 @@
 
 #background {
     width: 100%;
-    background-image: url(./img/header_background.jpeg)
+    background-image: url(./img/header_background.jpeg);
 }
 
 #pres {
@@ -29,6 +29,11 @@
 #batman {
     width: 80%;
     padding-left: 10%;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
 }
 
 .hs {
