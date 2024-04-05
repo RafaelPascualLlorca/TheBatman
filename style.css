@@ -3,14 +3,24 @@
 
 #background {
     width: 100%;
-    background-image: url(./img/header_background.jpeg);
+    position: relative;
+}
+
+#imgfon {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 #pres {
+    top: 40%;
+    margin-left: 50%;
     color: white;
     font-size: 50px;
     font-family: "Mulish", sans-serif;
-    margin: 19%;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 #textfon {
